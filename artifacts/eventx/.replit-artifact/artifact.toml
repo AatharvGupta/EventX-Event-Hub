@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "EventX"
+description = "A modern college event management app for discovering events, registering students, managing events, and tracking attendance. Includes a polished responsive frontend with demo accounts and browser-local persistence."
+version = "1.0.0"
+id = "artifacts/eventx"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19073
+
+[services.development]
+run = "pnpm --filter @workspace/eventx run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/eventx", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/eventx/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19073"
+BASE_PATH = "/"

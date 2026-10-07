@@ -1,0 +1,623 @@
+Build a complete, polished, responsive website called EventX – Online Event Management System.
+
+I need the actual working website, not a tutorial, explanation, or code snippets. Create the project files, run the application, and provide a working browser preview.
+
+PURPOSE
+
+EventX is a college event management platform that allows students to discover college events, view event details, register for events, manage their registrations, and check attendance.
+
+Administrators can create and manage events, view participants, manage registrations, and mark attendance.
+
+The website should look like a real modern product suitable for a college project demonstration.
+
+---
+
+DESIGN & UI
+
+Create a modern, premium-looking interface.
+
+Use:
+
+- Clean professional typography
+- Modern blue/purple visual theme
+- White/light backgrounds
+- Rounded cards
+- Subtle shadows
+- Smooth hover effects
+- Smooth transitions and animations
+- Responsive design
+- Mobile-friendly layout
+- Professional icons
+- Event images
+- Attractive buttons
+- Toast notifications
+- Modals for forms/actions
+
+Do NOT make it look like a simple HTML assignment.
+
+---
+
+NAVIGATION
+
+Create a responsive navbar containing:
+
+EventX logo
+
+- Home
+- Events
+- About
+- Contact
+- Login
+- Register
+
+After login, show the appropriate dashboard based on the user's role.
+
+---
+
+HOME PAGE
+
+Create a visually impressive landing page.
+
+Hero Section
+
+Headline:
+
+Discover. Register. Experience.
+
+Subtitle:
+
+One platform to discover, register, and manage all your college events.
+
+Buttons:
+
+Explore Events
+Register Now
+
+Add an attractive event/college illustration or image.
+
+Statistics
+
+Display:
+
+50+ Events
+
+2,500+ Students
+
+25+ Organizers
+
+95% Satisfaction
+
+Featured Events
+
+Display 6 attractive event cards.
+
+Example events:
+
+1. AI & Machine Learning Workshop
+2. Hackathon 2026
+3. Data Science Bootcamp
+4. Coding Competition
+5. Cultural Fest 2026
+6. Inter-College Debate Competition
+
+Each card must contain:
+
+- Event image
+- Event name
+- Category
+- Date
+- Time
+- Venue
+- Available seats
+- View Details button
+- Register button
+
+Why EventX?
+
+Create four feature cards:
+
+- Easy Event Discovery
+- Quick Registration
+- Digital Attendance
+- Centralized Management
+
+---
+
+EVENTS PAGE
+
+Create a complete event discovery page.
+
+At the top show:
+
+Discover Events
+
+Subtitle:
+
+Find exciting events happening across your campus.
+
+Add a search bar.
+
+Add filters:
+
+- All
+- Technology
+- Workshop
+- Competition
+- Cultural
+- Sports
+- Academic
+
+The search and filters must actually work.
+
+Display events in a responsive card grid.
+
+Each event card must have:
+
+- Image
+- Category badge
+- Event title
+- Date
+- Time
+- Venue
+- Available seats
+- Register button
+- View Details button
+
+---
+
+EVENT DETAILS PAGE
+
+When the user selects an event, show a detailed event page.
+
+Include:
+
+- Large event banner
+- Event name
+- Category
+- Description
+- Date
+- Time
+- Venue
+- Organizer
+- Maximum participants
+- Available seats
+- Registration deadline
+
+Add:
+
+Register Now
+
+When clicked, open a registration form/modal.
+
+After successful registration:
+
+Show:
+
+Registration Successful!
+
+Update the available seats.
+
+Prevent duplicate registration.
+
+---
+
+LOGIN PAGE
+
+Create a professional login screen.
+
+Fields:
+
+- Email
+- Password
+
+Options:
+
+- Remember me
+- Forgot password
+- Login
+
+Also provide:
+
+Don't have an account? Register
+
+For demonstration, create these demo accounts:
+
+Student
+
+Email:
+student@eventx.com
+
+Password:
+student123
+
+Admin
+
+Email:
+admin@eventx.com
+
+Password:
+admin123
+
+---
+
+REGISTRATION PAGE
+
+Create a student registration form.
+
+Fields:
+
+- Full Name
+- Email
+- Phone Number
+- College/University
+- Password
+- Confirm Password
+
+Validate all fields.
+
+After successful registration show a success notification.
+
+---
+
+STUDENT DASHBOARD
+
+Create a professional student dashboard.
+
+Sidebar:
+
+- Dashboard
+- Browse Events
+- My Registrations
+- Attendance
+- Profile
+- Logout
+
+Dashboard header:
+
+Welcome back, Student!
+
+Statistics cards:
+
+- Registered Events
+- Upcoming Events
+- Completed Events
+- Attendance Rate
+
+Upcoming Events
+
+Show registered upcoming events.
+
+Recent Activity
+
+Show recent registration/attendance activity.
+
+---
+
+MY REGISTRATIONS
+
+Create a page containing a professional table.
+
+Columns:
+
+- Event
+- Date
+- Venue
+- Registration Date
+- Status
+- Action
+
+Status:
+
+- Registered
+- Attended
+- Cancelled
+
+Add:
+
+Cancel Registration
+
+When cancelled, update the status and available seats.
+
+---
+
+ATTENDANCE PAGE
+
+Create an attendance page.
+
+Show:
+
+| Event | Date | Status |
+
+Possible statuses:
+
+- Present
+- Absent
+- Pending
+
+Use attractive status badges.
+
+---
+
+PROFILE PAGE
+
+Create a student profile page.
+
+Display:
+
+- Profile photo
+- Name
+- Email
+- Phone
+- College
+- Registered events
+- Attendance percentage
+
+Add:
+
+Edit Profile
+
+---
+
+ADMIN DASHBOARD
+
+Create a professional admin dashboard.
+
+Sidebar:
+
+- Dashboard
+- Manage Events
+- Add Event
+- Registrations
+- Participants
+- Attendance
+- Users
+- Logout
+
+Dashboard statistics:
+
+- Total Events
+- Total Students
+- Total Registrations
+- Attendance Rate
+
+Add charts/visual statistics if appropriate.
+
+---
+
+MANAGE EVENTS
+
+Create an admin event management page.
+
+Display a table:
+
+- Event Name
+- Category
+- Date
+- Venue
+- Participants
+- Status
+- Actions
+
+Actions:
+
+- View
+- Edit
+- Delete
+
+---
+
+ADD EVENT
+
+Create an Add Event form.
+
+Fields:
+
+- Event Name
+- Description
+- Category
+- Date
+- Time
+- Venue
+- Organizer
+- Maximum Participants
+- Registration Deadline
+- Event Image
+
+After submission, the event should appear on the Events page.
+
+---
+
+EDIT EVENT
+
+Allow admin to edit an existing event.
+
+Changes must immediately appear throughout the website.
+
+---
+
+DELETE EVENT
+
+Allow admin to delete events.
+
+Before deletion show a confirmation dialog:
+
+Are you sure you want to delete this event?
+
+---
+
+PARTICIPANTS PAGE
+
+Create an admin participant management page.
+
+Show:
+
+- Student Name
+- Email
+- Event
+- Registration Date
+- Registration Status
+
+Add:
+
+- Search
+- Filter by event
+- Filter by status
+
+---
+
+ATTENDANCE MANAGEMENT
+
+Admin should be able to:
+
+1. Select an event.
+2. View registered students.
+3. Mark Present.
+4. Mark Absent.
+5. Save attendance.
+
+Show a success notification after saving.
+
+---
+
+ABOUT PAGE
+
+Create an attractive About page explaining:
+
+What is EventX?
+
+EventX is a centralized college event management platform designed to simplify event discovery, registration, participant management, and attendance tracking.
+
+Add:
+
+- Mission
+- Features
+- Benefits
+- Why EventX
+
+---
+
+CONTACT PAGE
+
+Create a professional contact page.
+
+Include:
+
+- Name
+- Email
+- Subject
+- Message
+- Send Message button
+
+On submission show:
+
+Message sent successfully!
+
+Also display:
+
+- Email
+- Phone
+- College location
+
+---
+
+FOOTER
+
+Create a professional footer containing:
+
+EventX logo
+
+Short description
+
+Quick Links
+
+Events
+
+About
+
+Contact
+
+Social media icons
+
+Copyright:
+
+© 2026 EventX. All Rights Reserved.
+
+---
+
+FUNCTIONAL REQUIREMENTS
+
+The following must actually work:
+
+✓ Navigation
+✓ Login
+✓ Logout
+✓ Student registration
+✓ Event search
+✓ Event filtering
+✓ Event details
+✓ Event registration
+✓ Duplicate registration prevention
+✓ Registration cancellation
+✓ Student dashboard
+✓ Admin dashboard
+✓ Add event
+✓ Edit event
+✓ Delete event
+✓ Participant management
+✓ Attendance management
+✓ Profile editing
+✓ Form validation
+✓ Toast notifications
+✓ Responsive design
+
+Use localStorage/mock data for the first version.
+
+Do not require any paid API, API key, Firebase, or external database.
+
+---
+
+TECHNICAL REQUIREMENTS
+
+Use:
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5 or equivalent lightweight UI framework
+
+Organize the project cleanly.
+
+Use reusable JavaScript functions and components where appropriate.
+
+Keep the code readable and beginner-friendly.
+
+---
+
+IMPORTANT
+
+Do NOT create fake buttons that do nothing.
+
+Every visible button should either:
+
+- Navigate somewhere,
+- Open a modal,
+- Submit a form,
+- Update data,
+- Display a notification,
+- Or perform its intended action.
+
+Use realistic sample data so the website looks populated immediately.
+
+---
+
+FINAL INSTRUCTION
+
+BUILD THE WEBSITE NOW.
+
+Do not start with a long explanation.
+
+Create the files, implement the UI and functionality, run the project, check for errors, fix errors, and give me the working preview.
+
+After the website is working, wait for my next instruction.
+
+I will later ask you to add the Java + MySQL backend and college-project OOP requirements.

@@ -1,0 +1,1 @@
+- [EventX backend scope](eventx-backend-scope.md) — Keep the EventX first release browser-only; Java/MySQL comes later when requested.
